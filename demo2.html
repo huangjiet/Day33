@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+</style>
+<script type="text/javascript">
+    window.onload = function (ev) {
+        document.getElementById("cz").onmouseover=function () {
+            document.getElementById("info").style.display="block";
+        }
+        document.getElementById("cz").onmouseout=function () {
+            document.getElementById("info").style.display="none";
+        }
+    }
+</script>
+<body>
+    <a href="http://www.baidu.com" id="cz">dain wo!</a>
+<div id="info">baidu</div>
+</body>
+</html>
